@@ -8,7 +8,7 @@
 header{
     position: fixed;
     width:100%;
-    background-color: hsla(342, 80%, 29%, 0.5);
+    background-color: hsla(342, 80%, 29%, 0.502);
 }
 .menu{
     text-align: center;
@@ -29,6 +29,9 @@ header{
     position: relative;
     display: inline-block;
     color: white;
+}
+.dropdown:hover{
+    background-color:hsla(342, 80%, 20%, 1);
 }
 .dropdown:hover .dropdown-content{
     display: block;
