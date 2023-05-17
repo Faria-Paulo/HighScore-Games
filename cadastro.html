@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js" defer></script>
+    <title>Cadastre-se!</title>
+</head>
+<body>
+    <header>
+        <header class="showcase">
+            <div class="showcase-top">
+                <img src="img/highscore_fundo_preto.png" alt="'HighScore">
+            </div>
+            <div class="showcase-content">
+                <form action="" id="form" method="post">
+                    <fieldset>
+                        <legend>Cadastro de Usuário</legend>
+                        <p>
+                            <label for="usuario" id="labelName">Usuário</label>
+                            <input type="text" name="nome" id="usuario" class="input required" value="" oninput="nameValidate()">
+                            <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+                        </p>
+                        <p>
+                            <label for="email" id="labelEmail">Email</label>
+                            <input type="email" name="email" id="email" class="input required" value="" oninput="emailValidate()">
+                            <span class="span-required">Digite um email válido</span>
+                        </p>
+                        <p>
+                            <label for="password" id="labelPassword" >Senha</label>
+                            <input type="password" name="password" id="password" class="input required" oninput="mainPasswordValidate()">
+                            <span class="span-required">Digite uma senha com no mínimo 8 caracteres</span>
+                        </p>
+                        <p>
+                            <label for="password2" id="labelConfirmPassword">Confirme sua senha</label>
+                            <input type="password" name="password2" id="confirmPassword" class="input required" oninput="comparePassword()">
+                            <span class="span-required">As senhas devem ser compatíveis</span>
+                        </p>
+                        <button id="cadastrar" onclick="cadastro()">Cadastrar</button>
+                    </fieldset>
+                </form>
+            </div>
+        </header>
+    </header>
+    <section>
+
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>

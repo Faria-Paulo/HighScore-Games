@@ -22,35 +22,35 @@ function trocaBannerDoodleJump(){
     document.querySelector('.banner_discription').style.fontFamily="Indie Flower";
 
     const a = document.querySelector('#game_link');
-    const b = document.querySelector('#game_history');
+    const b = document.querySelector('#history_link');
     a.href  = "doodle_jump/play/doodle_jump_play.html";
-    b.href  = "doodle_jump/play/story/doodle_jump_history.html";//verificar
+    b.href  = "doodle_jump/story/story.html";
 }
 
 function trocaBannerFlappyBird(){
     document.getElementById('banner').style.backgroundImage="url(img/posters/flappy_bird4.jpg)";
     document.querySelector('.banner_buttons').style.display="block";
-    document.querySelector('.banner_title').innerHTML="<br><br>";
+    document.querySelector('.banner_title').innerHTML="<br><br><br>";
     document.querySelector('.banner_title').style.fontFamily='arial';
     document.querySelector('.banner_title').style.color="white";
     document.querySelector('.banner_title').style.fontWeight="200";
 
-    document.querySelector('.banner_discription').innerHTML="<br>O famoso Flappy Bird, tão estressante quanto divertido!";
+    document.querySelector('.banner_discription').innerHTML="<br>br>O famoso Flappy Bird, tão estressante quanto divertido!";
     document.querySelector('.banner_discription').style.fontFamily="arial";
     document.querySelector('.banner_discription').style.color="white";
     document.querySelector('.banner_discription').style.fontWeight="600";
 
     const a = document.querySelector('#game_link');
-    const b = document.querySelector('#game_history');
+    const b = document.querySelector('#history_link');
     a.href  = "flappy_bird/play/flappy_bird_play.html";
-    b.href  = "doodle_jump/play/story/doodle_jump_history.html";
+    b.href  = "flappy_bird/story/story.html";
 }
 
 function trocaBannerPong(){
     document.getElementById('banner').style.backgroundImage="url(img/posters/pong4.png)";
     document.querySelector('.banner_buttons').style.display="block";
 
-    document.querySelector('.banner_title').innerHTML="<br><br><br>";
+    document.querySelector('.banner_title').innerHTML="<br><br><br><br>";
     document.querySelector('.banner_title').style.fontFamily='arial';
     document.querySelector('.banner_title').style.color="white";
     document.querySelector('.banner_title').style.fontWeight="200";
@@ -61,9 +61,9 @@ function trocaBannerPong(){
     document.querySelector('.banner_discription').style.fontWeight="600";
 
     const a = document.querySelector('#game_link');
-    const b = document.querySelector('#game_history');
+    const b = document.querySelector('#history_link');
     a.href  = "pong/play/pong_play.html";
-    b.href  = "doodle_jump/play/story/doodle_jump_history.html";
+    b.href  = "pong/story/story.html";
 }
 
 function trocaBannerSnake(){
@@ -81,9 +81,9 @@ function trocaBannerSnake(){
     document.querySelector('.banner_discription').style.fontWeight="600";
 
     const a = document.querySelector('#game_link');
-    const b = document.querySelector('#game_history');
+    const b = document.querySelector('#history_link');
     a.href  = "snake/play/snake.html";
-    b.href  = "doodle_jump/play/story/doodle_jump_history.html";
+    b.href  = "snake/story/story.html";
 }
 
 function trocaBannerSpaceInvaders(){
@@ -101,9 +101,9 @@ function trocaBannerSpaceInvaders(){
     document.querySelector('.banner_discription').style.fontWeight="600";
 
     const a = document.querySelector('#game_link');
-    const b = document.querySelector('#game_history');
+    const b = document.querySelector('#history_link');
     a.href  = "space_invaders/play/index.html";
-    b.href  = "doodle_jump/play/story/doodle_jump_history.html";
+    b.href  = "space_invaders/story/story.html";
 }
 
 function trocaBannerTetris(){
@@ -121,9 +121,9 @@ function trocaBannerTetris(){
     document.querySelector('.banner_discription').style.fontWeight="600";
 
     const a = document.querySelector('#game_link');
-    const b = document.querySelector('#game_history');
+    const b = document.querySelector('#history_link');
     a.href  = "tetris/play/index.html";
-    b.href  = "tetris/play/index.html";
+    b.href  = "tetris/story/story.html";
 }
 
 function trocaBannerFruitNinja(){
@@ -141,7 +141,7 @@ function trocaBannerFruitNinja(){
     document.querySelector('.banner_discription').style.fontWeight="600";
 
     const a = document.querySelector('#game_link');
-    const b = document.querySelector('#game_history');
+    const b = document.querySelector('#history_link');
     a.href  = "fruit_ninja/play/index.html";
-    b.href  = "doodle_jump/play/story/doodle_jump_history.html";
+    b.href  = "fruit_ninja/story/story.html";
 }
