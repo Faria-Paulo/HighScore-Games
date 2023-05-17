@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 /*  Header  */
 
 .nav_logo{
@@ -56,6 +60,10 @@
     height: 180px;
 }
 
+.banner_buttons{
+    display: none;
+}
+
 .banner_button{
     cursor: pointer;
     color:white;
@@ -72,6 +80,12 @@
 }
 
 .banner_button:hover{
+    color: #000;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+.banner_button:hover a{
     color: #000;
     background-color: white;
     transition: all 0.2s;
