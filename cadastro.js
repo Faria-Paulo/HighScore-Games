@@ -15,6 +15,21 @@ let labelPassword = document.querySelector("#labelPassword");
 let confirmPassword = document.querySelector("#confirmPassword");
 let labelConfirmPassword = document.querySelector("#labelConfirmPassword");
 
+//Variáveis abaixo referente a página de login.
+
+const log = document.querySelector("#log");
+
+//Funções abaixo referente a página de cadastro
+
+// form.addEventListener('submit', (e) => {
+//     e.preventDefault();
+//     nameValidate();
+//     emailValidate();
+//     mainPasswordValidate();
+//     comparePassword();
+//     cadastrar();
+// });
+
 function setError(index){
     campos[index].style.border='2px solid red';
     spans[index].style.display='block';
@@ -69,7 +84,7 @@ function comparePassword(){
     }
 }
 
-function cadastro(){
+function cadastrar(){
     let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
 
   listaUser.push(
@@ -83,4 +98,46 @@ function cadastro(){
     localStorage.setItem('listaUser', JSON.stringify(listaUser));
 
     window.location.href='login.html';
+}
+
+//Funções abaixo referente a página de login
+
+// log.addEventListener('submit', (f) => {
+//     f.preventDefault();
+//     entrar();
+// });
+
+function entrar(){
+
+    let email_log=document.querySelector("#email_log");
+    let labelEmail_log=document.querySelector("#labelEmail_log");
+
+    let senha_log=document.querySelector("#senha_log");
+    let labelSenha_log=document.querySelector("#labelSenha_log");
+
+    let listaUser=[]
+
+    let userValid={
+        nome:'',
+        email:'',
+        password:''
+    }
+
+    listaUser=JSON.parse(localStorage.getItem('listaUser'))
+
+    console.log(listaUser)
+
+    // listaUser.forEach((item)=>{
+    //   if(email_log.value == item.emailCad && password.value == item.senhaCad)  {
+
+    //     userValid={
+    //         nome: item.nomeCad,
+    //         user: item.emailCad,
+    //         password: item.passwordCad,
+    //     }
+    //   }
+    // })
+
+    // console.log(userValid)
+
 }
