@@ -11,15 +11,15 @@ window.addEventListener('scroll', () =>{
 function trocaBannerDoodleJump(){
     document.getElementById('banner').style.backgroundImage="url(img/posters/doodle_jump2.jpg)";
     document.querySelector('.banner_buttons').style.display="block";
-    document.querySelector('.banner_title').innerHTML="doodle jump";
-    document.querySelector('.banner_title').style.color="red";
+    document.querySelector('.banner_title').innerHTML="<br><br>";
+    document.querySelector('.banner_title').style.color="white";
     document.querySelector('.banner_title').style.fontWeight="200";
-    document.querySelector('.banner_title').style.fontFamily="Indie Flower";
+    document.querySelector('.banner_title').style.fontFamily="Arial";
 
-    document.querySelector('.banner_discription').innerHTML="relemebre a nostalgia de 2014 de quando jogava doodle jump com seus amigos!";
-    document.querySelector('.banner_discription').style.color="red";
+    document.querySelector('.banner_discription').innerHTML="<br>relemebre a nostalgia de 2014 de quando jogava doodle jump com seus amigos!";
+    document.querySelector('.banner_discription').style.color="black";
     document.querySelector('.banner_discription').style.fontWeight="300";
-    document.querySelector('.banner_discription').style.fontFamily="Indie Flower";
+    document.querySelector('.banner_discription').style.fontFamily="Arial";
 
     const a = document.querySelector('#game_link');
     const b = document.querySelector('#history_link');
@@ -143,5 +143,25 @@ function trocaBannerFruitNinja(){
     const a = document.querySelector('#game_link');
     const b = document.querySelector('#history_link');
     a.href  = "fruit_ninja/play/index.html";
+    b.href  = "fruit_ninja/story/story.html";
+}
+
+function trocaBannerPacMan(){
+    document.getElementById('banner').style.backgroundImage="url(img/posters/pac_man3.jpg)";
+    document.querySelector('.banner_buttons').style.display="block";
+
+    document.querySelector('.banner_title').innerHTML="<br><br><br>";
+    document.querySelector('.banner_title').style.fontFamily='arial';
+    document.querySelector('.banner_title').style.color="white";
+    document.querySelector('.banner_title').style.fontWeight="200";
+
+    document.querySelector('.banner_discription').innerHTML="<br>Come-come";
+    document.querySelector('.banner_discription').style.fontFamily="arial";
+    document.querySelector('.banner_discription').style.color="white";
+    document.querySelector('.banner_discription').style.fontWeight="600";
+
+    const a = document.querySelector('#game_link');
+    const b = document.querySelector('#history_link');
+    a.href  = "pac-man/pacman/index.html";
     b.href  = "fruit_ninja/story/story.html";
 }
