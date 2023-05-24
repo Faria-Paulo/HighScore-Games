@@ -27,6 +27,63 @@ function trocaBannerBlackJack(){
     b.href  = "doodle_jump/story/story.html";
 }
 
+function trocaBannerDelta(){
+    document.getElementById('banner').style.backgroundImage="url(img/posters/delta4.jpeg)";
+    document.querySelector('.banner_buttons').style.display="block";
+    document.querySelector('.banner_title').innerHTML="<br><br>";
+    document.querySelector('.banner_title').style.color="white";
+    document.querySelector('.banner_title').style.fontWeight="200";
+    document.querySelector('.banner_title').style.fontFamily="Arial";
+
+    document.querySelector('.banner_discription').innerHTML="<br>relemebre a nostalgia de 2014 de quando jogava doodle jump com seus amigos!";
+    document.querySelector('.banner_discription').style.color="black";
+    document.querySelector('.banner_discription').style.fontWeight="300";
+    document.querySelector('.banner_discription').style.fontFamily="Arial";
+
+    const a = document.querySelector('#game_link');
+    const b = document.querySelector('#history_link');
+    a.href  = "delta_master/index.html";
+    b.href  = "doodle_jump/story/story.html";
+}
+
+function trocaBannerRaceMaster(){
+    document.getElementById('banner').style.backgroundImage="url(img/posters/outrun3.jpg)";
+    document.querySelector('.banner_buttons').style.display="block";
+    document.querySelector('.banner_title').innerHTML="<br><br>";
+    document.querySelector('.banner_title').style.color="white";
+    document.querySelector('.banner_title').style.fontWeight="200";
+    document.querySelector('.banner_title').style.fontFamily="Arial";
+
+    document.querySelector('.banner_discription').innerHTML="<br>relemebre a nostalgia de 2014 de quando jogava doodle jump com seus amigos!";
+    document.querySelector('.banner_discription').style.color="black";
+    document.querySelector('.banner_discription').style.fontWeight="300";
+    document.querySelector('.banner_discription').style.fontFamily="Arial";
+
+    const a = document.querySelector('#game_link');
+    const b = document.querySelector('#history_link');
+    a.href  = "race_master/v4.final.html";
+    b.href  = "doodle_jump/story/story.html";
+}
+
+function trocaBannerRoadFighter(){
+    document.getElementById('banner').style.backgroundImage="url(img/posters/black_jack2.png)";
+    document.querySelector('.banner_buttons').style.display="block";
+    document.querySelector('.banner_title').innerHTML="<br><br>";
+    document.querySelector('.banner_title').style.color="white";
+    document.querySelector('.banner_title').style.fontWeight="200";
+    document.querySelector('.banner_title').style.fontFamily="Arial";
+
+    document.querySelector('.banner_discription').innerHTML="<br>relemebre a nostalgia de 2014 de quando jogava doodle jump com seus amigos!";
+    document.querySelector('.banner_discription').style.color="black";
+    document.querySelector('.banner_discription').style.fontWeight="300";
+    document.querySelector('.banner_discription').style.fontFamily="Arial";
+
+    const a = document.querySelector('#game_link');
+    const b = document.querySelector('#history_link');
+    a.href  = "road_fighter/game.html";
+    b.href  = "doodle_jump/story/story.html";
+}
+
 function trocaBannerDoodleJump(){
     document.getElementById('banner').style.backgroundImage="url(img/posters/doodle_jump2.jpg)";
     document.querySelector('.banner_buttons').style.display="block";
