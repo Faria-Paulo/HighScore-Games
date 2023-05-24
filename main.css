@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+:root{
+    --primary-color:hsl(357, 92%, 47%);    
+}
+
 
 /*  Header  */
 
@@ -30,8 +34,19 @@
     background-color: #000;
 }
 
-.banner{
+.banner_main{
     background-image: url("img/arcade_full.jpg");
+}
+
+.banner_highscore{
+    background-image: url("img/arcade_blue_1.jpg");
+}
+
+.banner_jogos{
+    background-image: url("img/arcade_blue_2.jpg");
+}
+
+.banner{
     background-size: cover;
     background-position: center center;
     color:white;
@@ -70,6 +85,7 @@
     outline: none;
     border: none;
     font-weight: 700;
+    font-family: 'Press Start 2P', sans-serif;
     border-radius: 0.2vw;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -97,7 +113,61 @@
     background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61), #000);
 }
 
+/*  Dropdown  */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.dropdown-active{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.dropdown-active{
+    background-color: white;
+    color: hsl(30, 100%, 50%);
+}
+.dropdown-active:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content{
+    font-size: 10px;
+    display: none;
+    position: absolute;    
+    background-color: var(--primary-color);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 3px; 
+    margin-left: -14px;
+}
+.dropdown-content a{
+    display: block;
+} 
+
+.dropdown-content li{
+    padding:10px;
+}
+
+.dropdown-content li:hover{
+    background-color: #000;
+}
+
+/* .dropdown-content a:hover{
+    background-color: hsl(30, 100%, 50%);
+} */
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
 /*  Section  */
+
+h2{
+    margin-left: 30px;
+}
+
 .row_posters{
     display: flex;
     overflow-y: hidden;
@@ -109,8 +179,9 @@
     width: 100%;
     object-fit: contain;
     max-height: 100px;
-    margin-right: 10px;
+    margin-right: 15px;
     transition: transform 450ms;
+    margin-bottom: 50px;
 }
 
 .a_row_poster{

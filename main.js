@@ -35,7 +35,7 @@ function trocaBannerFlappyBird(){
     document.querySelector('.banner_title').style.color="white";
     document.querySelector('.banner_title').style.fontWeight="200";
 
-    document.querySelector('.banner_discription').innerHTML="<br>br>O famoso Flappy Bird, tão estressante quanto divertido!";
+    document.querySelector('.banner_discription').innerHTML="<br><br>O famoso Flappy Bird, tão estressante quanto divertido!";
     document.querySelector('.banner_discription').style.fontFamily="arial";
     document.querySelector('.banner_discription').style.color="white";
     document.querySelector('.banner_discription').style.fontWeight="600";

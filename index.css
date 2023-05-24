@@ -1,5 +1,5 @@
 :root{
-    --primary-color:#e50914;    
+    --primary-color:hsl(357, 92%, 47%);    
 }
 
 *{
@@ -8,7 +8,7 @@
     padding: 0;
 } 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     -webkit-font-smoothing: antialiased; 
     background: #000;
     color:#999;

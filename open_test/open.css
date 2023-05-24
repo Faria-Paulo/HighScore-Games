@@ -1,0 +1,133 @@
+/* 
+* {
+    font-family: 'Press Start 2P', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .overflow-mask {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    touch-action: manipulation;
+  }
+  
+  .backdrop {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .fps-display {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    visibility: hidden;
+  }
+  
+  .preload-div {
+    align-items: baseline;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .main-menu-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .25s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 5;
+  }
+
+  .logo {
+    height: 200px;
+    margin-top: 25vh;
+  }
+  
+  .game-start {
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px red;
+    color: black;
+    cursor: pointer;
+    font-size: 48px;
+    outline: none;
+    padding: 16px;
+  
+    &:active {
+      box-shadow: none;
+      transform: translateX(5px) translateY(5px);
+    }
+  
+    &:disabled {
+      cursor: default;
+    }
+  }
+
+  .loading-container {
+    background-color: black;
+    border: 5px solid blue;
+    border-radius: 10px;
+    height: 48px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: opacity generic-duration loading-pacman-duration;
+    width: 500px;
+    z-index: 5;
+  } */
+
+  /*
+ * Baseline styles
+ */
+
+ 
+ .pre-carregamento{
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .efeito-carregamento{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 100%;
+
+    animation: efeito 0.5s infinite;
+ }
+
+ @keyframes efeito{
+    0%{
+        box-shadow: 0 0 0 0 black;
+    }
+    100%{
+        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+  }
