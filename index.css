@@ -85,6 +85,11 @@ img{
     align-items: center;
     text-align: center;
     margin-top: 9rem;
+    background-color: #0c0101c4;
+    /* opacity: 70%; */
+    width: 50%;
+    padding: 30px;
+    border-radius: 50px;
 }
 
 .showcase-content h1{
@@ -131,6 +136,7 @@ img{
     font-size: 1.5rem;
     padding: 1.5rem 2.1rem;
     text-transform: uppercase;
+    border-radius: 240px;
 }
 
 .btn-lg{

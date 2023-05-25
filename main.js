@@ -1,5 +1,19 @@
 const nav = document.getElementById('nav');
 
+
+
+
+/*  slider horizontal  */
+const slider = document.querySelector('.row_posters');
+let isDown = false;
+let startX;
+let ScrollLeft;
+/*  slider horizontal  */
+
+
+
+
+
 window.addEventListener('scroll', () =>{
     if(window.scrollY >=100){
         nav.classList.add('nav_black');
@@ -7,6 +21,34 @@ window.addEventListener('scroll', () =>{
         nav.classList.remove('nav_black');
     }
 })
+
+/*  Slider horizontal  */
+
+slider.addEventListener('mousedown', () => {
+    isDown = true;
+    slider.classList.add('active');
+});
+
+slider.addEventListener('mouseleave', () => {
+    isDown = false;
+    slider.classList.remove('active');
+    
+});
+
+slider.addEventListener('mouseup', () => {
+    isDown = false;
+    slider.classList.remove('active');
+});
+
+slider.addEventListener('mousemove', () => {
+    if(!isDown) return;
+    console.count(isDown);
+    
+    
+});
+
+
+
 
 function trocaBannerBlackJack(){
     document.getElementById('banner').style.backgroundImage="url(img/posters/black_jack2.png)";

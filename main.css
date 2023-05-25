@@ -175,6 +175,13 @@ h2{
     padding: 20px;
 }
 
+.row_posters.active{
+    background: rgba(255, 255, 255, 0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+
 .row_poster{
     width: 100%;
     object-fit: contain;
@@ -194,8 +201,30 @@ h2{
 
 .row_poster:hover{
     transform: scale(1.08);
+    cursor: pointer;
 }
 
 .row_posters::-webkit-scrollbar{
     display: none;
+}
+
+/*  Scroll  */ 
+
+::-webkit-scrollbar-track{
+    background-color: var(--primary-color)
+
+}
+
+::-webkit-scrollbar{
+    width: 0.3vw;
+    max-width: 0.3vw;
+    min-width: 0.3vw;
+    background-color: crimson;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d3cece;
+    height: 1px;
+
 }
