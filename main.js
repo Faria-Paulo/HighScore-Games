@@ -123,6 +123,7 @@ slider3.addEventListener('mousemove', (e) => {
 function trocaBannerBlackJack(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/black_jack2.png)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -146,6 +147,7 @@ function trocaBannerBlackJack(){
 function trocaBannerDelta(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/delta4.jpeg)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -169,6 +171,7 @@ function trocaBannerDelta(){
 function trocaBannerRaceMaster(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/outrun3.jpg)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -192,6 +195,7 @@ function trocaBannerRaceMaster(){
 function trocaBannerRoadFighter(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/outrun3.jpg)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -215,6 +219,7 @@ function trocaBannerRoadFighter(){
 function trocaBannerDoodleJump(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/doodle_jump2.jpg)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -238,6 +243,7 @@ function trocaBannerDoodleJump(){
 function trocaBannerFlappyBird(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/flappy_bird4.jpg)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -261,6 +267,7 @@ function trocaBannerFlappyBird(){
 function trocaBannerPong(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/pong4.png)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -284,6 +291,7 @@ function trocaBannerPong(){
 function trocaBannerSnake(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/snake4.png)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -307,6 +315,7 @@ function trocaBannerSnake(){
 function trocaBannerSpaceInvaders(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/space_invaders3.png)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -329,7 +338,9 @@ function trocaBannerSpaceInvaders(){
 
 function trocaBannerTetris(){
 
-    document.getElementById('banner').style.backgroundImage="url(img/posters/tetris6.png)";
+    document.getElementById('banner').style.backgroundImage="url(img/posters/tetris5.jpg)";
+    document.getElementById('banner').style.backgroundPosition="center, 20%";
+
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -353,6 +364,8 @@ function trocaBannerTetris(){
 function trocaBannerFruitNinja(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/fruit_ninja2.png)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
+
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -376,6 +389,8 @@ function trocaBannerFruitNinja(){
 function trocaBannerPacMan(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/pac_man3.jpg)";
+    document.getElementById('banner').style.backgroundPosition="20% center";
+
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
