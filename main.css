@@ -165,21 +165,72 @@
 /*  Section  */
 
 h2{
+    /* margin-top: 50px; */
     margin-left: 30px;
 }
 
+/*  Primeira div  */
 .row_posters{
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
+    transition: 450ms;
 }
 
 .row_posters.active{
-    background: rgba(255, 255, 255, 0.3);
+    /* background: rgba(255, 255, 255, 0.3); */
     cursor: grabbing;
     cursor: -webkit-grabbing;
-    transform: scale(1);
+    transform: scale(1.08);
+    transition: 450ms;
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+/*  Segunda div  */
+.row_posters2{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    transition: 450ms;
+}
+
+.row_posters2.active{
+    /* background: rgba(255, 255, 255, 0.3); */
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1.08);
+    transition: 450ms;
+}
+
+.row_posters2::-webkit-scrollbar{
+    display: none;
+}
+
+/*  Terceira div  */
+.row_posters3{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    transition: 450ms;
+}
+
+.row_posters3.active{
+    /* background: rgba(255, 255, 255, 0.3); */
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1.08);
+    transition: 450ms;
+}
+
+.row_posters3::-webkit-scrollbar{
+    display: none;
 }
 
 .row_poster{
@@ -192,11 +243,11 @@ h2{
 }
 
 .a_row_poster{
-    width: 100%;
+    /* width: 100%;
     object-fit: contain;
     max-height: 100px;
     margin-right: 10px;
-    transition: transform 450ms;
+    transition: transform 450ms; */
 }
 
 .row_poster:hover{
@@ -204,9 +255,7 @@ h2{
     cursor: pointer;
 }
 
-.row_posters::-webkit-scrollbar{
-    display: none;
-}
+
 
 /*  Scroll  */ 
 
