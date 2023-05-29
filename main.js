@@ -135,7 +135,7 @@ function trocaBannerBlackJack(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> O blackjack é um jogo de cartas conhecido em cassinos, em que o objetivo do jogo é obter a soma de 21 pontos. Nesse jogo cada carta possui um valor específico, e de acordo com a soma das cartas na mão do jogador é verificado a necessidade de pedir outra carta. Isso ocorre até que sua soma chegue a 21 pontos.";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -159,7 +159,7 @@ function trocaBannerDelta(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Um jogo super divertido inspirado nos jogos de naves que fizeram sucesso nos arcades.";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -171,7 +171,7 @@ function trocaBannerDelta(){
 function trocaBannerRaceMaster(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/outrun3.jpg)";
-    document.getElementById('banner').style.backgroundPosition="20% center";
+    document.getElementById('banner').style.backgroundPosition="center 0";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -183,7 +183,7 @@ function trocaBannerRaceMaster(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Out Run, lançado em 1986 para os arcades teve um grande sucesso e foi um dos primeiros jogos não lineares, dando ao jogador a possibilidade de escolher entre suas 5 rotas distintas para concluir o jogo na ordem que desejasse.";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -194,8 +194,8 @@ function trocaBannerRaceMaster(){
 
 function trocaBannerRoadFighter(){
 
-    document.getElementById('banner').style.backgroundImage="url(img/posters/outrun3.jpg)";
-    document.getElementById('banner').style.backgroundPosition="20% center";
+    document.getElementById('banner').style.backgroundImage="url(img/posters/slipstream2.jpg)";
+    document.getElementById('banner').style.backgroundPosition="center 80%";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -207,7 +207,7 @@ function trocaBannerRoadFighter(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Criado pelo Razormist do Sourcecodester 'Slipstream' que na verdade tem o nome de Road Fighter é um simples jogo inspirados nos clássicos jogos de corrida dos anos 80. <br> Slipstream, o jogo da arte é um incrível jogo criado por um único brasileiro que hoje está disponível para todas plataformas, vale a pena conferir!";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -219,7 +219,7 @@ function trocaBannerRoadFighter(){
 function trocaBannerDoodleJump(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/doodle_jump2.jpg)";
-    document.getElementById('banner').style.backgroundPosition="20% center";
+    document.getElementById('banner').style.backgroundPosition="center 40%";
 
     document.querySelector('.banner_buttons').style.display="block";
     document.querySelector('.banner_buttons').style.marginTop="-150px";
@@ -231,7 +231,7 @@ function trocaBannerDoodleJump(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Nesse jogo super carismático que estava instalado em todo galaxy pocket em 2014, você assume o controle do Doodler e tenta subir o mais alto que puder se esquivando dos enimigos e superando os obstáculos";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -252,10 +252,10 @@ function trocaBannerFlappyBird(){
     
     document.querySelector('.banner_discription').style.color="";
     document.querySelector('.banner_discription').style.fontSize="0.62rem";
-    document.querySelector('.banner_discription').style.width="40vw";
-    document.querySelector('.banner_discription').style.maxWidth="500px";
+    document.querySelector('.banner_discription').style.width="50vw";
+    document.querySelector('.banner_discription').style.maxWidth="600px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Extremamente difícil e viciante. <br> O jogo lançado em 2013 teve seu auge em janeiro de 2014 até que a incansável busca por uma entrevista do seu criador pela mídia e pressões diversas de fãs e haters fez com que ele removesse o jogo das lojas digitais. A remoção do jogo nas lojas virtuais fez com que surgisse um mercado de compra e venda de celulares que tinham o jogo instalado depois de seu desaparecimento.";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -279,7 +279,7 @@ function trocaBannerPong(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Todo mundo conhece o Pong, mas poucos sabem que foi um dos primeiros jogos eletrônicos, criado lá em 1972. <br> Nessa versão é possível até dois jogadores jogarem juntos.";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -303,7 +303,7 @@ function trocaBannerSnake(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Se você já teve um celular da Nokia então esse jogo será familiar para você. <br> Snake quando foi lançado em 1976 para os arcades se chamava Blockade e desde então virou um clássico instantâneo e ganhou diversas versões diferentes.";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -327,7 +327,7 @@ function trocaBannerSpaceInvaders(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Space Invaders foi um dos primeiros jogos de tiro com gráfico bidimensional. O objetivo é destruir ondas de naves com uma espaçonave humana para ganhar o maior número de pontos possível. Para construir o jogo, seu criador se inspirou na mídia popular, como A Guerra dos Mundos e Star Wars.";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -352,7 +352,7 @@ function trocaBannerTetris(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Aposto que você não sabia, mas o Tetris foi criado durante a Guerra Fria nos anos 80 pela União Soviética e o jogo acabou dominando o mundo inteiro por ser super divertido e viciante.";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -377,7 +377,7 @@ function trocaBannerFruitNinja(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Lançado em 2010 Fruit Ninja é um jogo mobile que consiste basicamente em cortar frutas na tela de um smartphone ou tablet que viralizou no mundo inteiro";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
@@ -389,7 +389,7 @@ function trocaBannerFruitNinja(){
 function trocaBannerPacMan(){
 
     document.getElementById('banner').style.backgroundImage="url(img/posters/pac_man3.jpg)";
-    document.getElementById('banner').style.backgroundPosition="20% center";
+    document.getElementById('banner').style.backgroundPosition="center 40%";
 
 
     document.querySelector('.banner_buttons').style.display="block";
@@ -402,7 +402,7 @@ function trocaBannerPacMan(){
     document.querySelector('.banner_discription').style.width="40vw";
     document.querySelector('.banner_discription').style.maxWidth="500px";
     document.querySelector('.banner_discription').style.lineHeight="1.8";
-    document.querySelector('.banner_discription').innerHTML="<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repudiandae eveniet at ab dolor deleniti repellat consequuntur quidem a, explicabo, exercitationem laudantium. Cupiditate, quo, voluptatibus cum minima tenetur quibusdam deserunt omnis et perspiciatis amet ad odio, incidunt eius modi? Corrupti illum ipsa quo nihil iusto maiores, dicta voluptas quasi non!";
+    document.querySelector('.banner_discription').innerHTML="<br> Uma pizza com um pedaço faltando e a vontade de fazer um jogo diferente dos shooters dos anos 80, assim surgiu a ideia do Pac-Man. <br>Ele foi lançado para os arcades e todo mundo sempre se lembra com carinho do jogo do 'come-come'.";
 
     document.querySelector('.banner_fade').style.marginTop="-400px";
 
