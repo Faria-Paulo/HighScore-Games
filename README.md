@@ -8,6 +8,7 @@ link: https://highscoregames.netlify.app
 Integrantes:
 
 NOME: Felipe José Vaz Oliviera              - RA: 3122101301
+
 NOME: Fernando Loureiro Senha               - RA: 3022102916
 NOME: Gabriel Kauã Barroso Vidal            - RA: 3022102337
 NOME: Jackson da Silva Santos               - RA: 3022106250
