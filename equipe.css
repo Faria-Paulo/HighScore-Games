@@ -26,6 +26,8 @@ body{
 .nav_logo{
     width: 200px;
     object-fit: contain;
+    max-width: 80vh;
+
 }
 
 .nav_avatar{
@@ -78,19 +80,21 @@ h2{
     display: block;
 }
 .dropdown-content{
-    font-size: 10px;
     display: none;
     position: absolute;    
     background-color: var(--primary-color);
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-radius: 3px; 
-    margin-left: -20px;
+    border-radius: 10px; 
+    margin-left: -8.8rem;
+    margin-top: 2.2rem;
+    width: 10.7rem;
 }
 .dropdown-content a{
     display: block;
     font-size: 10px;
+    height: 1rem;
 } 
 
 .dropdown-content li{
@@ -101,13 +105,15 @@ h2{
 
 .dropdown-content li:hover{
     background-color: #000;
+    border-radius: 10px;
 }
 
 /* .dropdown-content a:hover{
     background-color: hsl(30, 100%, 50%);
 } */
-.dropdown:hover .dropdown-content{
-    display: block;
+.btn-rounded:hover .dropdown-content{
+    display: inline-block;
+    transition: 10s ease-in-out;
 }
 
 /*  Buttons  */
@@ -118,17 +124,17 @@ a{
 }
 
 .btn{
-    display: inline-block;
+    display: block;
     background: var(--primary-color);
     color:#fff;
-    padding: 0.4rem 1.3rem;
+    padding: 0.9rem 1.8rem;
     text-align: center;
     border: none;
     cursor: pointer;
     margin-right: 0.5rem;
     outline: none;
     box-shadow: 0 1px 0 rgba(0,0,0, 0.45);
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .btn:hover{
@@ -194,4 +200,25 @@ a{
     height: 100%;
     margin-right: 10px;
     border-radius: 3px;
+}
+
+/*  Scroll  */ 
+
+::-webkit-scrollbar-track{
+    background-color: var(--primary-color)
+
+}
+
+::-webkit-scrollbar{
+    width: 0.3vw;
+    max-width: 0.3vw;
+    min-width: 0.3vw;
+    background-color: crimson;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d3cece;
+    height: 1px;
+
 }

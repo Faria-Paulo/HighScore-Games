@@ -144,3 +144,24 @@ img{
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
 }
+
+/*  Scroll  */ 
+
+::-webkit-scrollbar-track{
+    background-color: var(--primary-color)
+
+}
+
+::-webkit-scrollbar{
+    width: 0.3vw;
+    max-width: 0.3vw;
+    min-width: 0.3vw;
+    background-color: crimson;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d3cece;
+    height: 1px;
+
+}

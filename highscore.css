@@ -3,6 +3,7 @@
 }
 
 
+
 *{
     padding: 0;
     margin: 0;
@@ -28,112 +29,20 @@ body{
     background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61), #000);
 }
 
-.nav_logo{
-    width: 200px;
-    object-fit: contain;
-}
-
-.nav_avatar{
-    width: 30px;
-    object-fit: contain;
-}
-
-.nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    z-index: 1;
-    transition-timing-function: ease-in;
-    transition: all 0.5;
-}
-
-.nav_black{
-    background-color: #000;
-}
-
-h1{
-    margin: 30px;
-    padding-top: 30px;
-}
-
-h2{
-    text-align: center;
-}
-
-/*  Dropdown  */
-
-.dropdown{
-    position: relative;
-    display: inline-block;
-    color: white;
-}
-.dropdown-active{
-    position: relative;
-    display: inline-block;
-    color: white;
-}
-.dropdown-active{
-    background-color: white;
-    color: hsl(30, 100%, 50%);
-}
-.dropdown-active:hover .dropdown-content{
-    display: block;
-}
-.dropdown-content{
-    font-size: 10px;
-    display: none;
-    position: absolute;    
-    background-color: var(--primary-color);
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 3px; 
-    margin-left: -20px;
-}
-.dropdown-content a{
-    display: block;
-    font-size: 10px;
-} 
-
-.dropdown-content li{
-    padding:10px;
-    list-style: none;
-}
-
-
-.dropdown-content li:hover{
-    background-color: #000;
-}
-
-/* .dropdown-content a:hover{
-    background-color: hsl(30, 100%, 50%);
-} */
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-
-/*  Buttons  */
-
-a{
-    color: #fff;
-    text-decoration: none;
-}
-
 .btn{
-    display: inline-block;
+    display: block;
     background: var(--primary-color);
     color:#fff;
-    padding: 0.4rem 1.3rem;
+    padding: 0.9rem 1.8rem;
     text-align: center;
     border: none;
     cursor: pointer;
     margin-right: 0.5rem;
     outline: none;
     box-shadow: 0 1px 0 rgba(0,0,0, 0.45);
-    border-radius: 2px;
+    border-radius: 10px;
+    height: 2rem;
+    width: 11rem;
 }
 
 .btn:hover{
@@ -157,6 +66,108 @@ a{
 }
 
 
+
+/*  Dropdown  */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.dropdown-active{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.dropdown-active{
+    background-color: white;
+    color: hsl(30, 100%, 50%);
+}
+.dropdown-active:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;    
+    background-color: var(--primary-color);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px; 
+    margin-left: -9rem;
+    margin-top: 1.7rem;
+    width: 11.1rem;
+}
+.dropdown-content a{
+    display: block;
+    font-size: 10px;
+    height: 1rem;
+    
+} 
+
+.dropdown-content li{
+    padding:10px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.dropdown-content li:hover{
+    background-color: #000;
+    border-radius: 10px;
+}
+
+/* .dropdown-content a:hover{
+    background-color: hsl(30, 100%, 50%);
+} */
+.btn-rounded:hover .dropdown-content{
+    display: inline-block;
+    transition: 10s ease-in-out;
+}
+
+.nav_logo{
+    width: 200px;
+    object-fit: contain;
+    max-width: 80vh;
+    
+}
+
+.nav_avatar{
+    width: 30px;
+    object-fit: contain;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5;
+}
+
+.nav_black{
+    background-color: #000;
+}
+
+
+
+
+h1{
+    margin: 30px;
+    padding-top: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
 /*  Section  */
 /* section{
     align-items: center;
@@ -173,4 +184,26 @@ a{
 
 .text h2{
     margin-bottom: 50px;
+}
+
+
+/*  Scroll  */ 
+
+::-webkit-scrollbar-track{
+    background-color: var(--primary-color)
+
+}
+
+::-webkit-scrollbar{
+    width: 0.3vw;
+    max-width: 0.3vw;
+    min-width: 0.3vw;
+    background-color: crimson;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d3cece;
+    height: 1px;
+
 }
